@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Card</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+
+    <div id="wrapper" class="bg-blue-50 w-[100vw] h-[100vh] flex flex-col mx-auto items-center justify-center">
+        <div class="conatiner  max-w-[600px]">
+            <!-- title -->
+            <div class="title text-center font-bold text-4xl text-[#03045e] flex flex-col items-center justify-center">
+                <h2>Our Reviews</h2>
+                <div class="underline m-5 mb-8 border-2 w-[50px] border-blue-400 "></div>
+            </div>
+            <!-- review section -->
+            <article class="review shadow-lg lg:h-[400px] h-[600px] bg-white rounded-md p-10 flex flex-col mx-auto items-center justify-center text-center">
+                <div class="img-container ">
+                    <!-- <img src="Aaryan_new.jpg" alt="" width="100px" height="100px" class="rounded-full "> -->
+                    <div class="w-[140px] h-[140px] bg-blue-400 rounded-full relative">
+                        <img src="Aaryan_new.jpg" id="person-img" alt="" class="absolute w-[140px] h-[140px] rounded-full object-cover object-left-top top-[2%] right-[8%]">
+                    </div>
+                    
+                </div>
+
+                <h4 id="author" class="mt-4 text-xl text-[#03045e] font-bold">Aaryan Naugaraiya</h4>
+                <p id="job" class="text-[#0077b6] uppercase leading-1.2 tracking-wide font-semibold mb-2">UX Designer</p>
+                <p id="info" class="text-[#457b9d] text-[18px] text-justify">
+                    Awesome product, loved the packaging. Was well wrapped and had no issues in the delivery. The best thing was that the prices were reasonable. Would love to shop in future too.
+                </p>
+
+                <!--- prev next button -->
+                <div class="button-container mt-3">
+                    <button class="prev-btn mr-2 text-blue-400">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                        </svg>  
+                          
+                    </button>
+                    <button class="next-btn text-blue-400">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- random button -->
+            </article>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <script>
+        feather.replace()
+    </script>
+</body>
+</html>
